@@ -19,7 +19,7 @@
 	<h1>Melanie's Weather App</h1>
 
 	<div class="form-inline" id="inputForm">
-		<input type="text" class="form-control" id="zipInput" placeholder="e.g. 12345">
+		<input type="text" class="form-control" id="zipInput" placeholder="{{ $default }}">
 		<button type="button" class="btn btn-success" id="weatherButton">Get Weather</button>
 	</div>
 

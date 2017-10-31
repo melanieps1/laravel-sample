@@ -12,14 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-
-Route::get('/test', function () {
-    return "Hello from the routes/web.php file!";
+  return view('welcome');
 });
 
 Route::get('/portfolio/js/weather', function () {
-    return view('js-weather.index');
+	// Approach one for passing parameters into the view - supply values as variables
+	// $default = '80301';
+	// return view('js-weather.index', ['default' => $default]);
+
+	// Approach two - The ['default' => ...] passes in the variable 'default' for the placeholder in index.blade.php
+  return view('js-weather.index', ['default' => '80301']);
+
+  // Approach three - Shortcut with compact
+  // $default = '80301';
+  // return view('js-weather.index', compact('default'));
 });
