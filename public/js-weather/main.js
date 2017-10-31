@@ -21,7 +21,7 @@ document.onreadystatechange = function() {
 };
 
 function getWeather() {
-	var url="http://api.openweathermap.org/data/2.5/weather?zip=<zipcode>&us&appid=7e07a542d4ac42bdff71c3a89d46c95c";
+	var url="https://api.openweathermap.org/data/2.5/weather?zip=<zipcode>&us&appid=7e07a542d4ac42bdff71c3a89d46c95c";
 	url = url.replace("<zipcode>", zipInput.value) // Parameter 1 in () is what you want to replace, parameter 2 is what you want to replace paramater 1 with.
 	// Now, the URL for the API call is formatting correctly based on input
 
