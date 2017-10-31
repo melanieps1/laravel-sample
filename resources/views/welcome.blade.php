@@ -16,7 +16,8 @@
         <h3>JavaScript</h3>
 
         <ul>
-            <li><a href="/portfolio/js/weather">View Weather App</a></li>
+            <li><a href="/portfolio/js/weather">Weather App</a></li>
+            <li><a href="/portfolio/js/js-calculator">Calculator</a></li>
         </ul>
 
     </body>

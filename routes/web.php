@@ -27,3 +27,7 @@ Route::get('/portfolio/js/weather', function () {
   // $default = '80301';
   // return view('js-weather.index', compact('default'));
 });
+
+Route::get('/portfolio/js/js-calculator', function () {
+  return view('js-calculator.index');
+});
