@@ -28,6 +28,10 @@ Route::get('/portfolio/js/weather', function () {
   // return view('js-weather.index', compact('default'));
 });
 
-Route::get('/portfolio/js/js-calculator', function () {
+Route::get('/portfolio/js/calculator', function () {
   return view('js-calculator.index');
+});
+
+Route::get('/portfolio/js/tictactoe', function () {
+  return view('js-tictactoe.index');
 });

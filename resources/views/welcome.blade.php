@@ -13,12 +13,15 @@
         
         <h1>Hello world!</h1>
         <h2>Portfolio</h2>
-        <h3>JavaScript</h3>
+        
+        <br>
 
-        <ul>
-            <li><a href="/portfolio/js/weather">Weather App</a></li>
-            <li><a href="/portfolio/js/js-calculator">Calculator</a></li>
-        </ul>
+        <h3>JavaScript Projects</h3>
+            <ul>
+                <li><a href="/portfolio/js/weather">Weather App</a></li>
+                <li><a href="/portfolio/js/calculator">Calculator</a></li>
+                <li><a href="/portfolio/js/tictactoe">Tic Tac Toe</a></li>
+            </ul>
 
     </body>
 </html>

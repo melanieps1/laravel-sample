@@ -13,9 +13,11 @@
 </head>
 <body class="container">
 
-<div class="header">
-	<h2>JavaScript Calculator</h2>
-</div>
+	<div style="margin-top: 24px;"><a href="/">Go Back</a></div>
+
+	<div class="header">
+		<h2>JavaScript Calculator</h2>
+	</div>
 
 	<div class="calculator">
 
